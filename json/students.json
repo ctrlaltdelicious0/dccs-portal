@@ -1,0 +1,115 @@
+{
+    "students": [
+        {
+            "first_name": "Nick",
+            "last_name": "Albina",
+            "username": "albina",
+            "password": "123",
+            "subjects": {
+                "Subject 1": {
+                    "Written Works": {
+                        "1": "5\/10",
+                        "2": "6\/20",
+                        "3": "10\/10",
+                        "4": "10\/10"
+                    },
+                    "Performance Task": {
+                        "1": "39\/50",
+                        "2": "27\/40"
+                    },
+                    "Exam": {
+                        "1": "70\/80"
+                    }
+                },
+                "Subject 2": {
+                    "Written Works": {
+                        "1": "10\/10",
+                        "2": "20\/20",
+                        "3": "15\/15"
+                    },
+                    "Performance Task": {
+                        "1": "50\/50",
+                        "2": "40\/40"
+                    },
+                    "Exam": {
+                        "1": "60\/60"
+                    }
+                }
+            }
+        },
+        {
+            "first_name": "Julian",
+            "last_name": "Balagtas",
+            "username": "balagtas",
+            "password": "123",
+            "subjects": {
+                "Subject 1": {
+                    "Written Works": {
+                        "1": "15\/15",
+                        "2": "20\/20",
+                        "3": "20\/20",
+                        "4": "20\/20"
+                    },
+                    "Performance Task": {
+                        "1": "50\/50",
+                        "2": "40\/40"
+                    },
+                    "Exam": {
+                        "1": "80\/80"
+                    }
+                },
+                "Subject 2": {
+                    "Written Works": {
+                        "1": "10\/10",
+                        "2": "20\/20",
+                        "3": "15\/15"
+                    },
+                    "Performance Task": {
+                        "1": "50\/50",
+                        "2": "40\/40"
+                    },
+                    "Exam": {
+                        "1": "60\/60"
+                    }
+                }
+            }
+        },
+        {
+            "first_name": "Nathalie",
+            "last_name": "Pullon",
+            "username": "pullon",
+            "password": "123",
+            "subjects": {
+                "Subject 1": {
+                    "Written Works": {
+                        "1": "15\/15",
+                        "2": "20\/20",
+                        "3": "20\/20",
+                        "4": "4\/5"
+                    },
+                    "Performance Task": {
+                        "1": "50\/50",
+                        "2": "40\/40"
+                    },
+                    "Exam": {
+                        "1": "80\/80"
+                    }
+                },
+                "Subject 2": {
+                    "Written Works": {
+                        "1": "10\/10",
+                        "2": "20\/20",
+                        "3": "15\/15"
+                    },
+                    "Performance Task": {
+                        "1": "50\/50",
+                        "2": "40\/40"
+                    },
+                    "Exam": {
+                        "1": "80\/80"
+                    }
+                }
+            }
+        }
+    ]
+}

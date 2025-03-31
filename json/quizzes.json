@@ -1,0 +1,16 @@
+{
+    "quizzes": {
+        "Subject 1": {
+            "Quiz": {
+                "1": "https:\/\/forms.google.com\/example1",
+                "2": "https:\/\/forms.google.com\/example2"
+            }
+        },
+        "Subject 2": {
+            "Quiz": {
+                "1": "https:\/\/forms.google.com\/example3",
+                "2": "https:\/\/forms.google.com\/example4"
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "admins": [
+        {
+            "first_name": "Warren",
+            "last_name": "Castroverde",
+            "username": "castroverde",
+            "password": "123"
+        }
+    ]
+}
