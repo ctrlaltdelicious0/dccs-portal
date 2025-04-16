@@ -1,0 +1,251 @@
+header {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-block: 5px;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+
+    backdrop-filter: blur(10px) saturate(200%);
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* MOBILE MENU */
+.menu_container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    display: none;
+}
+
+.menu_close_container {
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    padding-block: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 3px solid black;
+    position: inherit;
+    z-index: 999;
+    width: 100vw;
+}
+
+.menu_close_button {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_items_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu_a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HISTORY HEADER */
+main {
+    background-image: url("../assets/img/hero_2_og.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 15vw;
+}
+
+.custom_divider_1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom_divider_1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom_divider_1 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* HISTORY SECTION */
+.history_container {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.history_h1 {
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.history_p {
+    margin-bottom: 10px;
+}
+
+.history_p_1 {
+    margin-bottom: 20px;
+    text-indent: 60px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .history_container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/* NAVBAR */
+.logo_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_container,
+.logo_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar_container {
+    margin-left: auto;
+}
+
+.navbar_container,
+.navbar_ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar_container,
+.navbar_ul {
+    list-style: none;
+}
+
+.navbar_a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_login {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-block: 10px;
+
+    background-color: #34845C;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.125);
+
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+
+    cursor: pointer;
+}
+
+.menu_open_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding-block: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .navbar_a,
+    .login_li {
+        display: none;
+    }
+
+    .menu_open_button {
+        display: flex;
+    }
+}
+
+/* FOOTER */
+footer {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    padding-block: 5vh;
+}
+
+.footer_left_box, .footer_right_box {
+    width: 50%;
+}
+
+.footer_right_box {
+    padding: 50px;
+}
+
+.footer_left_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 256px;
+}
+
+.footer_h1 {
+    font-size: 42px;
+}
+
+.social_icons_container {
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-direction: column;
+    }
+
+    .footer_left_box, .footer_right_box {
+        width: 100%;
+    }
+}
