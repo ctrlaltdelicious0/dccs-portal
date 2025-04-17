@@ -19,6 +19,10 @@
             <!-- FONTAWESOME -->
             <script src="https://kit.fontawesome.com/1e66f5b8bb.js" crossorigin="anonymous"></script>
 
+            <!-- SWIPER -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
         <!-- CSS -->
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/about.css">
@@ -83,8 +87,19 @@
 
                 <button class="history_redirect" onclick="window.location.href='history.html'">Check out our History!</button>
             </div>
-            <div class="about_box_right">
-                <img class="about_box_img" src="assets/img/about_showcase.jpg">
+            <div class="about_box_right swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="about_box_img" src="assets/img/about_showcase.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="about_box_img" src="assets/img/about_showcase_2.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="about_box_img" src="assets/img/about_showcase_3.jpg">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 

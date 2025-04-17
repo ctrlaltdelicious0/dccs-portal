@@ -22,3 +22,21 @@ document.getElementById('menu_close_button').addEventListener('click', function 
   document.querySelector('.menu_container').style.display = 'none';
   document.querySelector('header').style.display = 'flex'; // Show the header
 });
+
+// SWIPER CAROUSEL
+var swiper = new Swiper(".mySwiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: false
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});

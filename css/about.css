@@ -219,8 +219,14 @@ main {
     border-radius: 20px;
 }
 
-.about_box_img {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    background-color: #8CD39E;
 }
 
 .custom_divider_2 {
@@ -242,6 +248,13 @@ main {
 
 .custom_divider_2 .shape-fill {
     fill: #8CD39E;
+}
+
+@media (max-width: 1366px) {
+    .about_text_container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 }
 
 @media (max-width: 768px) {
