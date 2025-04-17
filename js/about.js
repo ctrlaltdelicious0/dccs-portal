@@ -37,7 +37,7 @@ var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   loop: true,
   autoplay: {
-    delay: 3000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   speed: 1000,
