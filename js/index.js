@@ -1,6 +1,8 @@
 // JAVASCRIPT CHECK
 console.log('index.js loaded');
 
+// ====================
+
 // Initialize Lenis
 const lenis = new Lenis();
 
@@ -11,6 +13,8 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+// ====================
 
 // NAVBAR TOGGLE
 document.getElementById('menu_open_button').addEventListener('click', function () {
@@ -23,6 +27,7 @@ document.getElementById('menu_close_button').addEventListener('click', function 
   document.querySelector('header').style.display = 'flex'; // Show the header
 });
 
+// ====================
 
 // CARD FACILITIES
 const $cardsWrapper = document.querySelector('#cards');
@@ -59,4 +64,17 @@ $cards.forEach(($card, index0) => {
       rangeEnd: `exit-crossing ${CSS.percent(index / numCards * 100)}`,
     }
   );
+});
+
+// ====================
+
+// PROGRAMS REDIRECT
+// REDIRECT TO KINDERGARTEN PROGRAM PAGE
+document.addEventListener('DOMContentLoaded', function() {
+  const kindergartenLink = document.querySelector('.acad_programs_1');
+  if (kindergartenLink) {
+    kindergartenLink.addEventListener('click', function() {
+      window.location.href = 'kindergarten_program.html';
+    });
+  }
 });

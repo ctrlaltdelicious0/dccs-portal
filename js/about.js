@@ -1,6 +1,8 @@
 // JAVASCRIPT CHECK
 console.log('about.js loaded');
 
+// ====================
+
 // Initialize Lenis
 const lenis = new Lenis();
 
@@ -11,6 +13,8 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+// ====================
 
 // NAVBAR TOGGLE
 document.getElementById('menu_open_button').addEventListener('click', function () {
@@ -23,20 +27,18 @@ document.getElementById('menu_close_button').addEventListener('click', function 
   document.querySelector('header').style.display = 'flex'; // Show the header
 });
 
+// ====================
+
 // SWIPER CAROUSEL
 var swiper = new Swiper(".mySwiper", {
-  effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: "auto",
-  coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: false
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
   },
-  pagination: {
-    el: ".swiper-pagination",
-  },
+  speed: 1000,
 });

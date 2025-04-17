@@ -1,6 +1,8 @@
 // JAVASCRIPT CHECK
 console.log('history.js loaded');
 
+// ====================
+
 // Initialize Lenis
 const lenis = new Lenis();
 
@@ -11,6 +13,8 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+// ====================
 
 // NAVBAR TOGGLE
 document.getElementById('menu_open_button').addEventListener('click', function () {

@@ -421,6 +421,15 @@ main {
 
 .acad_programs_card_h1 {
     margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.acad_programs_card_h1:hover {
+    color: green;
+}
+
+.acad_programs_1, .acad_programs_2, .acad_programs_3, .acad_programs_4 {
+    cursor: pointer;
 }
 
 .custom_divider_4 {
